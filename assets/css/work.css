@@ -1,0 +1,83 @@
+/*작업페이지 css*/
+
+.work-wrapper{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 3rem;
+  left: 0;
+
+}
+
+.img-wrapper{
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  top: 3rem;
+  left: 0;
+  padding: 15px;
+  padding-bottom: 0px;
+  overflow-y: scroll;
+}
+
+.img-wrapper img{
+ width: 100%;
+ margin: 0;
+
+}
+
+.mobile-work-wrapper{
+  display: none;
+
+}
+
+.text-wrapper{
+  position: fixed;
+  width: 48%;
+  top: 3rem;
+  left: 50%;
+  padding: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+  word-break: keep-all;
+  
+}
+
+@media screen and (max-width: 700px){
+  .work-wrapper{
+    display: none;
+  }
+
+  .mobile-work-wrapper{
+    display: block;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .mobile-img-wrapper{
+    white-space:nowrap; 
+    overflow-x: auto;
+  }
+
+  .mobile-img-wrapper li{
+    display:inline-block;
+    margin-right:-5px;
+  }
+  }
+
+  .mobile-img-wrapper li img{
+    height: 60vw;
+  }
+
+  .mobile-text-wrapper{
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+
+
+}

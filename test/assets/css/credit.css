@@ -1,0 +1,123 @@
+a{
+	cursor: pointer;
+}
+
+.dongha-insta:hover{
+	color: #7eb8e5;
+}
+
+.sojeong-insta:hover{
+	color: #ffd900;
+}
+
+.miso-insta:hover{
+	color: #309c46;
+}
+
+.jihyun-insta:hover{
+	color: #28469b;
+}
+
+.inji-insta:hover{
+	color: #ee762d;
+}
+
+.hyunwoo-insta:hover{
+	color: #997db7;
+}
+
+.yul-insta:hover{
+	color: #e60020;
+}
+
+.choiyunji-insta:hover{
+	color: #ef8d9e;
+}
+
+.hanyunji-insta:hover{
+	color: #9b5e35;
+}
+
+.hyein-insta:hover{
+	color: #9dd0a0;
+}
+
+.laon-insta:hover{
+	color: grey;
+}
+
+.blur-div{
+	position: fixed;
+	top: 3rem;
+	left: 0;
+	width: 100%;
+	height: 200%;
+	display: none;
+	background-color: white;
+	opacity: 0.8;
+	z-index: 4;
+	overflow: hidden !important;
+}
+
+
+.credit-wrapper{
+	position: absolute;
+	top: 3rem;
+	left: 0;
+	width: 100%;
+	height: 90%;
+	overflow-y: hidden !important;
+	float: left;
+}
+
+.credit-wrapper img{
+	height: 100%;
+	width: auto;
+	float: left;
+}
+
+.credit-text-wrapper{
+	position: relative;
+	margin-left: 10px;
+	float: left;
+}
+
+.mobile-credit-wrapper{
+	display: none;
+	position: absolute;
+	top: 3rem;
+	left: 0;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+
+.mobile-poster{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.mobile-poster img{
+	width: 100%;
+}
+
+.mobile-credit-text-wrapper{
+	font-size: .8rem;
+	line-height: 1.6;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 700px){
+	.credit-wrapper{
+		display: none;
+	}
+	.mobile-credit-wrapper{
+		display: block;
+	}
+
+	.mobile-poster{
+		
+	}
+}

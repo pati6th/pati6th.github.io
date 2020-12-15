@@ -559,12 +559,12 @@ a {
 }
 
 @media screen and (max-width: 478px){
-  #works{
-    left: 35%;
+ #works{
+    left: 36%;
   }
 
   #works-category{
-    left: 35%;
+    left: 36%;
   }
 
   #space{
